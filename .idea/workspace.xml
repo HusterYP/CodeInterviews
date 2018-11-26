@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2a6134b-3b45-4abf-9502-80088920f144" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="d2a6134b-3b45-4abf-9502-80088920f144" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,32 +12,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LRUCache1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LRUCache1.java">
+      <file leaf-file-name="FindHalfNum.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/FindHalfNum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
-              <caret line="69" column="38" lean-forward="false" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
-              <folding>
-                <element signature="method#LRUCache1#0;class#LRUCache1#0" expanded="false" />
-                <element signature="method#get#0;class#LRUCache1#0" expanded="false" />
-                <element signature="method#put#0;class#LRUCache1#0" expanded="false" />
-                <element signature="method#containsValue#0;class#LRUCache1#0" expanded="false" />
-                <element signature="method#size#0;class#LRUCache1#0" expanded="false" />
-                <element signature="method#getAll#0;class#LRUCache1#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LRUCache2.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/LRUCache2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="96" column="22" lean-forward="false" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
-              <folding>
-                <element signature="docComment;class#LRUCache2#0" expanded="false" />
-                <element signature="method#get#0;class#LRUCache2#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="540">
+              <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -68,6 +46,7 @@
         <option value="$PROJECT_DIR$/src/LRUCache.java" />
         <option value="$PROJECT_DIR$/src/LRUCache1.java" />
         <option value="$PROJECT_DIR$/src/LRUCache2.java" />
+        <option value="$PROJECT_DIR$/src/FindHalfNum.java" />
       </list>
     </option>
   </component>
@@ -136,10 +115,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LRUCache2">
+  <component name="RunManager" selected="Application.FindHalfNum">
     <configuration name="ChildNumMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="ChildNumMax" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CodeInterviews" />
+      <envs />
+    </configuration>
+    <configuration name="FindHalfNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="FindHalfNum" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -246,14 +239,16 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.ChildNumMax" />
       <item index="1" class="java.lang.String" itemvalue="Application.LRUCache2" />
+      <item index="2" class="java.lang.String" itemvalue="Application.FindHalfNum" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.LRUCache2" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ChildNumMax" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.FindHalfNum" />
+        <item index="1" class="java.lang.String" itemvalue="Application.LRUCache2" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ChildNumMax" />
       </list>
     </recent_temporary>
   </component>
@@ -270,12 +265,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543231591365</updated>
-      <workItem from="1543231594373" duration="7618000" />
+      <workItem from="1543231594373" duration="8849000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7618000" />
+    <option name="totallyTimeSpent" value="8849000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -288,6 +283,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -297,7 +293,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.52895325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52895325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -538,6 +534,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/LRUCache2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#LRUCache2#0" expanded="false" />
+            <element signature="method#get#0;class#LRUCache2#0" expanded="false" />
+            <element signature="method#put#0;class#LRUCache2#0" expanded="false" />
+            <element signature="method#checkRemove#0;class#LRUCache2#0" expanded="false" />
+            <element signature="method#moveToFirst#0;class#LRUCache2#0" expanded="false" />
+            <element signature="method#removeLast#0;class#LRUCache2#0" expanded="false" />
+            <element signature="class#CacheNode#0;class#LRUCache2#0" expanded="false" />
+            <element signature="method#toString#0;class#CacheNode#0;class#LRUCache2#0" expanded="false" />
+            <element signature="method#main#0;class#LRUCache2#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/LRUCache1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="542">
@@ -553,14 +567,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LRUCache2.java">
+    <entry file="file://$PROJECT_DIR$/src/FindHalfNum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="96" column="22" lean-forward="false" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
-          <folding>
-            <element signature="docComment;class#LRUCache2#0" expanded="false" />
-            <element signature="method#get#0;class#LRUCache2#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="540">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
