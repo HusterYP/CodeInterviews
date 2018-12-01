@@ -12,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="RotateMinNum.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/RotateMinNum.java">
+      <file leaf-file-name="PathInMatrix.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/PathInMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="29" column="23" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+            <state relative-caret-position="485">
+              <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -60,6 +60,7 @@
         <option value="$PROJECT_DIR$/src/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/FrogJmpStairs.java" />
         <option value="$PROJECT_DIR$/src/RotateMinNum.java" />
+        <option value="$PROJECT_DIR$/src/PathInMatrix.java" />
       </list>
     </option>
   </component>
@@ -132,7 +133,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RotateMinNum">
+  <component name="RunManager" selected="Application.PathInMatrix">
     <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Fibonacci" />
@@ -161,9 +162,9 @@
       <module name="CodeInterviews" />
       <envs />
     </configuration>
-    <configuration name="RebuildBiTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="PathInMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="RebuildBiTree" />
+      <option name="MAIN_CLASS_NAME" value="PathInMatrix" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -285,19 +286,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.RebuildBiTree" />
-      <item index="1" class="java.lang.String" itemvalue="Application.StackToQueue" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Fibonacci" />
-      <item index="3" class="java.lang.String" itemvalue="Application.FrogJmpStairs" />
-      <item index="4" class="java.lang.String" itemvalue="Application.RotateMinNum" />
+      <item index="0" class="java.lang.String" itemvalue="Application.StackToQueue" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Fibonacci" />
+      <item index="2" class="java.lang.String" itemvalue="Application.FrogJmpStairs" />
+      <item index="3" class="java.lang.String" itemvalue="Application.RotateMinNum" />
+      <item index="4" class="java.lang.String" itemvalue="Application.PathInMatrix" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.RotateMinNum" />
-        <item index="1" class="java.lang.String" itemvalue="Application.FrogJmpStairs" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Fibonacci" />
-        <item index="3" class="java.lang.String" itemvalue="Application.StackToQueue" />
-        <item index="4" class="java.lang.String" itemvalue="Application.RebuildBiTree" />
+        <item index="0" class="java.lang.String" itemvalue="Application.PathInMatrix" />
+        <item index="1" class="java.lang.String" itemvalue="Application.RotateMinNum" />
+        <item index="2" class="java.lang.String" itemvalue="Application.FrogJmpStairs" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Fibonacci" />
+        <item index="4" class="java.lang.String" itemvalue="Application.StackToQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -321,12 +322,12 @@
       <workItem from="1543560825737" duration="89000" />
       <workItem from="1543575346091" duration="752000" />
       <workItem from="1543640146278" duration="604000" />
-      <workItem from="1543641174283" duration="5159000" />
+      <workItem from="1543641174283" duration="7894000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24823000" />
+    <option name="totallyTimeSpent" value="27558000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -343,7 +344,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -532,18 +533,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PrintList.java">
+    <entry file="file://$PROJECT_DIR$/src/RotateMinNum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
+        <state relative-caret-position="288">
+          <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RotateMinNum.java">
+    <entry file="file://$PROJECT_DIR$/src/PrintList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="29" column="23" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+        <state relative-caret-position="36">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PathInMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
           <folding />
         </state>
       </provider>
