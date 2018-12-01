@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2a6134b-3b45-4abf-9502-80088920f144" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="d2a6134b-3b45-4abf-9502-80088920f144" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,17 +12,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="StackToQueue.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/StackToQueue.java">
+      <file leaf-file-name="Fibonacci.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Fibonacci.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="46" column="52" lean-forward="false" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
-              <folding>
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
-                <element signature="e#771#772#0" expanded="true" />
-                <element signature="e#819#820#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="506">
+              <caret line="36" column="55" lean-forward="false" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -64,6 +57,7 @@
         <option value="$PROJECT_DIR$/src/PrintList.java" />
         <option value="$PROJECT_DIR$/src/RebuildBiTree.java" />
         <option value="$PROJECT_DIR$/src/StackToQueue.java" />
+        <option value="$PROJECT_DIR$/src/Fibonacci.java" />
       </list>
     </option>
   </component>
@@ -136,10 +130,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StackToQueue">
+  <component name="RunManager" selected="Application.Fibonacci">
     <configuration name="DuplicateNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="DuplicateNum" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CodeInterviews" />
+      <envs />
+    </configuration>
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Fibonacci" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -182,20 +190,6 @@
     <configuration name="StackToQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="StackToQueue" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="CodeInterviews" />
-      <envs />
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Test" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -289,19 +283,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="1" class="java.lang.String" itemvalue="Application.DuplicateNum" />
-      <item index="2" class="java.lang.String" itemvalue="Application.PrintList" />
-      <item index="3" class="java.lang.String" itemvalue="Application.RebuildBiTree" />
-      <item index="4" class="java.lang.String" itemvalue="Application.StackToQueue" />
+      <item index="0" class="java.lang.String" itemvalue="Application.DuplicateNum" />
+      <item index="1" class="java.lang.String" itemvalue="Application.PrintList" />
+      <item index="2" class="java.lang.String" itemvalue="Application.RebuildBiTree" />
+      <item index="3" class="java.lang.String" itemvalue="Application.StackToQueue" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Fibonacci" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.StackToQueue" />
-        <item index="1" class="java.lang.String" itemvalue="Application.RebuildBiTree" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PrintList" />
-        <item index="3" class="java.lang.String" itemvalue="Application.DuplicateNum" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Fibonacci" />
+        <item index="1" class="java.lang.String" itemvalue="Application.StackToQueue" />
+        <item index="2" class="java.lang.String" itemvalue="Application.RebuildBiTree" />
+        <item index="3" class="java.lang.String" itemvalue="Application.PrintList" />
+        <item index="4" class="java.lang.String" itemvalue="Application.DuplicateNum" />
       </list>
     </recent_temporary>
   </component>
@@ -325,12 +319,12 @@
       <workItem from="1543560825737" duration="89000" />
       <workItem from="1543575346091" duration="752000" />
       <workItem from="1543640146278" duration="604000" />
-      <workItem from="1543641174283" duration="1367000" />
+      <workItem from="1543641174283" duration="2772000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21031000" />
+    <option name="totallyTimeSpent" value="22436000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -390,10 +384,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#819#820#0" expanded="true" />
+            <element signature="method#get#0;class#StackToQueue#0" expanded="false" />
+            <element signature="method#remove#0;class#StackToQueue#0" expanded="false" />
+            <element signature="method#main#0;class#StackToQueue#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -495,14 +488,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RebuildBiTree.java" />
-    <entry file="file://$PROJECT_DIR$/src/PrintList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Software/jdk1.8/src.zip!/java/util/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
@@ -516,14 +501,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/StackToQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="46" column="52" lean-forward="false" selection-start-line="46" selection-start-column="52" selection-end-line="46" selection-end-column="52" />
+        <state relative-caret-position="72">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#819#820#0" expanded="true" />
+            <element signature="method#get#0;class#StackToQueue#0" expanded="false" />
+            <element signature="method#remove#0;class#StackToQueue#0" expanded="false" />
+            <element signature="method#main#0;class#StackToQueue#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PrintList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Fibonacci.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="36" column="55" lean-forward="false" selection-start-line="36" selection-start-column="55" selection-end-line="36" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
