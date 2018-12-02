@@ -26,7 +26,7 @@ public class PathInMatrix {
             return true;
         boolean pathExist = false;
         if (curRow >= 0 && curRow < row && curCol >= 0 && curCol < col && matrix[curRow * col + curCol] == target[index]
-                && isVisit[curRow * col + curCol] == false) {
+                && !isVisit[curRow * col + curCol]) {
             isVisit[curRow * col + curCol] = true;
             pathExist = isPathExistCore(matrix, row, col, curRow + 1, curCol, target, index + 1, isVisit)
                     || isPathExistCore(matrix, row, col, curRow - 1, curCol, target, index + 1, isVisit)

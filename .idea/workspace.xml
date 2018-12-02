@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2a6134b-3b45-4abf-9502-80088920f144" name="Default" comment="" />
+    <list default="true" id="d2a6134b-3b45-4abf-9502-80088920f144" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PathInMatrix.java" afterPath="$PROJECT_DIR$/src/PathInMatrix.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="PathInMatrix.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/PathInMatrix.java">
+      <file leaf-file-name="BigNumMul.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BigNumMul.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+            <state relative-caret-position="470">
+              <caret line="68" column="32" lean-forward="false" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -61,6 +64,7 @@
         <option value="$PROJECT_DIR$/src/FrogJmpStairs.java" />
         <option value="$PROJECT_DIR$/src/RotateMinNum.java" />
         <option value="$PROJECT_DIR$/src/PathInMatrix.java" />
+        <option value="$PROJECT_DIR$/src/BigNumMul.java" />
       </list>
     </option>
   </component>
@@ -92,6 +96,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -100,17 +105,11 @@
               <item name="CodeInterviews" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodeInterviews" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CodeInterviews" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeInterviews" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -119,7 +118,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$/Software/nodejs/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="HashMap&#9;PSI&#9;JAVA://java.util.HashMap" />
+    <property name="SearchEverywhereHistoryKey" value="Comparator&#9;PSI&#9;JAVA://java.util.Comparator&#10;Compara&#9;PSI&#9;JAVA://java.lang.Comparable&#10;HashMap&#9;PSI&#9;JAVA://java.util.HashMap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -133,7 +132,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PathInMatrix">
+  <component name="RunManager" selected="Application.BigNumMul">
+    <configuration name="BigNumMul" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="BigNumMul" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CodeInterviews" />
+      <envs />
+    </configuration>
     <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Fibonacci" />
@@ -179,20 +192,6 @@
     <configuration name="RotateMinNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="RotateMinNum" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="CodeInterviews" />
-      <envs />
-    </configuration>
-    <configuration name="StackToQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="StackToQueue" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -286,19 +285,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.StackToQueue" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Fibonacci" />
-      <item index="2" class="java.lang.String" itemvalue="Application.FrogJmpStairs" />
-      <item index="3" class="java.lang.String" itemvalue="Application.RotateMinNum" />
-      <item index="4" class="java.lang.String" itemvalue="Application.PathInMatrix" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Fibonacci" />
+      <item index="1" class="java.lang.String" itemvalue="Application.FrogJmpStairs" />
+      <item index="2" class="java.lang.String" itemvalue="Application.RotateMinNum" />
+      <item index="3" class="java.lang.String" itemvalue="Application.PathInMatrix" />
+      <item index="4" class="java.lang.String" itemvalue="Application.BigNumMul" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.PathInMatrix" />
-        <item index="1" class="java.lang.String" itemvalue="Application.RotateMinNum" />
-        <item index="2" class="java.lang.String" itemvalue="Application.FrogJmpStairs" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Fibonacci" />
-        <item index="4" class="java.lang.String" itemvalue="Application.StackToQueue" />
+        <item index="0" class="java.lang.String" itemvalue="Application.BigNumMul" />
+        <item index="1" class="java.lang.String" itemvalue="Application.PathInMatrix" />
+        <item index="2" class="java.lang.String" itemvalue="Application.RotateMinNum" />
+        <item index="3" class="java.lang.String" itemvalue="Application.FrogJmpStairs" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Fibonacci" />
       </list>
     </recent_temporary>
   </component>
@@ -322,12 +321,13 @@
       <workItem from="1543560825737" duration="89000" />
       <workItem from="1543575346091" duration="752000" />
       <workItem from="1543640146278" duration="604000" />
-      <workItem from="1543641174283" duration="7894000" />
+      <workItem from="1543641174283" duration="12281000" />
+      <workItem from="1543732203378" duration="3381000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27558000" />
+    <option name="totallyTimeSpent" value="35326000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -357,6 +357,7 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -368,7 +369,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,6 +382,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/BigNumMul.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1332">
+          <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/StackToQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -416,13 +424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="611" column="20" lean-forward="true" selection-start-line="611" selection-start-column="20" selection-end-line="611" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Software/jdk1.8/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="3162" column="6" lean-forward="true" selection-start-line="3162" selection-start-column="6" selection-end-line="3162" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -527,8 +528,8 @@
         <state relative-caret-position="542">
           <caret line="26" column="64" lean-forward="false" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
           <folding>
-            <element signature="e#715#716#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="false" />
+            <element signature="e#790#791#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -541,18 +542,104 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/PathInMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="46" column="0" lean-forward="true" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#PathInMatrix#0" expanded="false" />
+            <element signature="method#isPathExistInMatrix#0;class#PathInMatrix#0" expanded="false" />
+            <element signature="method#isPathExistCore#0;class#PathInMatrix#0" expanded="false" />
+            <element signature="method#main#0;class#PathInMatrix#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/PrintList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
+        <state relative-caret-position="72">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PathInMatrix.java">
+    <entry file="jar://$USER_HOME$/Software/jdk1.8/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        <state relative-caret-position="-793">
+          <caret line="531" column="22" lean-forward="false" selection-start-line="531" selection-start-column="22" selection-end-line="531" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Software/jdk1.8/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="3007" column="32" lean-forward="false" selection-start-line="3007" selection-start-column="32" selection-end-line="3007" selection-end-column="32" />
+          <folding>
+            <element signature="e#118405#118406#0" expanded="false" />
+            <element signature="e#118444#118445#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Software/jdk1.8/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="301" column="26" lean-forward="false" selection-start-line="301" selection-start-column="26" selection-end-line="301" selection-end-column="43" />
+          <folding>
+            <element signature="docComment;class#Comparator#0" expanded="false" />
+            <element signature="docComment;method#compare#0;class#Comparator#0" expanded="false" />
+            <element signature="docComment;method#equals#0;class#Comparator#0" expanded="false" />
+            <element signature="docComment;method#reversed#0;class#Comparator#0" expanded="false" />
+            <element signature="docComment;method#thenComparing#0;class#Comparator#0" expanded="false" />
+            <element signature="method#thenComparing#0;class#Comparator#0" expanded="false" />
+            <element signature="e#9102#9225#0" expanded="false" />
+            <element signature="docComment;method#thenComparing#1;class#Comparator#0" expanded="false" />
+            <element signature="method#thenComparing#1;class#Comparator#0" expanded="false" />
+            <element signature="docComment;method#thenComparing#2;class#Comparator#0" expanded="false" />
+            <element signature="method#thenComparing#2;class#Comparator#0" expanded="false" />
+            <element signature="docComment;method#thenComparingInt#0;class#Comparator#0" expanded="false" />
+            <element signature="method#thenComparingInt#0;class#Comparator#0" expanded="false" />
+            <element signature="docComment;method#thenComparingLong#0;class#Comparator#0" expanded="false" />
+            <element signature="method#thenComparingLong#0;class#Comparator#0" expanded="false" />
+            <element signature="docComment;method#thenComparingDouble#0;class#Comparator#0" expanded="false" />
+            <element signature="method#thenComparingDouble#0;class#Comparator#0" expanded="false" />
+            <element signature="docComment;method#reverseOrder#0;class#Comparator#0" expanded="false" />
+            <element signature="docComment;method#naturalOrder#0;class#Comparator#0" expanded="false" />
+            <element signature="method#naturalOrder#0;class#Comparator#0" expanded="false" />
+            <element signature="docComment;method#nullsFirst#0;class#Comparator#0" expanded="false" />
+            <element signature="method#nullsFirst#0;class#Comparator#0" expanded="false" />
+            <element signature="docComment;method#nullsLast#0;class#Comparator#0" expanded="false" />
+            <element signature="method#nullsLast#0;class#Comparator#0" expanded="false" />
+            <element signature="docComment;method#comparing#0;class#Comparator#0" expanded="false" />
+            <element signature="method#comparing#0;class#Comparator#0" expanded="false" />
+            <element signature="docComment;method#comparing#1;class#Comparator#0" expanded="false" />
+            <element signature="method#comparing#1;class#Comparator#0" expanded="false" />
+            <element signature="docComment;method#comparingInt#0;class#Comparator#0" expanded="false" />
+            <element signature="method#comparingInt#0;class#Comparator#0" expanded="false" />
+            <element signature="docComment;method#comparingLong#0;class#Comparator#0" expanded="false" />
+            <element signature="method#comparingLong#0;class#Comparator#0" expanded="false" />
+            <element signature="docComment;method#comparingDouble#0;class#Comparator#0" expanded="false" />
+            <element signature="method#comparingDouble#0;class#Comparator#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Software/jdk1.8/src.zip!/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="95" column="17" lean-forward="false" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+          <folding>
+            <element signature="docComment;class#Comparable#0" expanded="false" />
+            <element signature="docComment;method#compareTo#0;class#Comparable#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BigNumMul.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="68" column="32" lean-forward="false" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
           <folding />
         </state>
       </provider>
