@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2a6134b-3b45-4abf-9502-80088920f144" name="Default" comment="" />
+    <list default="true" id="d2a6134b-3b45-4abf-9502-80088920f144" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,18 +14,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="BinarySearch.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/search/BinarySearch.java">
+      <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/search/BinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+            <state relative-caret-position="722">
+              <caret line="92" column="38" lean-forward="false" selection-start-line="92" selection-start-column="38" selection-end-line="92" selection-end-column="38" />
               <folding>
-                <element signature="docComment;class#BinarySearch#0" expanded="false" />
-                <element signature="method#BinarySearch#0;class#BinarySearch#0" expanded="false" />
-                <element signature="method#put#0;class#BinarySearch#0" expanded="false" />
-                <element signature="method#resize#0;class#BinarySearch#0" expanded="false" />
-                <element signature="method#rank#0;class#BinarySearch#0" expanded="false" />
-                <element signature="method#get#0;class#BinarySearch#0" expanded="false" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2569#2570#0" expanded="true" />
+                <element signature="e#2610#2611#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,6 +70,7 @@
         <option value="$PROJECT_DIR$/src/BigNumMul.java" />
         <option value="$PROJECT_DIR$/ReadMe.md" />
         <option value="$PROJECT_DIR$/src/search/BinarySearch.java" />
+        <option value="$PROJECT_DIR$/src/search/BinarySearchTree.java" />
       </list>
     </option>
   </component>
@@ -102,8 +102,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -116,12 +114,20 @@
               <item name="CodeInterviews" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CodeInterviews" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeInterviews" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -129,7 +135,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$/Software/nodejs/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="String&#9;FILE&#9;jar:///home/yuanping/Software/jdk1.8/src.zip!/java/lang/String.java&#10;Comparator&#9;PSI&#9;JAVA://java.util.Comparator&#10;Compara&#9;PSI&#9;JAVA://java.lang.Comparable&#10;HashMap&#9;PSI&#9;JAVA://java.util.HashMap" />
+    <property name="SearchEverywhereHistoryKey" value="Queue&#9;FILE&#9;jar:///home/yuanping/Software/jdk1.8/src.zip!/java/util/Queue.java&#10;String&#9;FILE&#9;jar:///home/yuanping/Software/jdk1.8/src.zip!/java/lang/String.java&#10;Comparator&#9;PSI&#9;JAVA://java.util.Comparator&#10;Compara&#9;PSI&#9;JAVA://java.lang.Comparable&#10;HashMap&#9;PSI&#9;JAVA://java.util.HashMap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -143,7 +149,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinarySearch">
+  <component name="RunManager" selected="Application.BinarySearchTree">
     <configuration name="BigNumMul" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="BigNumMul" />
@@ -177,9 +183,14 @@
       <module name="CodeInterviews" />
       <envs />
     </configuration>
-    <configuration name="FrogJmpStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="FrogJmpStairs" />
+    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="search.BinarySearchTree" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -301,19 +312,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.FrogJmpStairs" />
-      <item index="1" class="java.lang.String" itemvalue="Application.RotateMinNum" />
-      <item index="2" class="java.lang.String" itemvalue="Application.PathInMatrix" />
-      <item index="3" class="java.lang.String" itemvalue="Application.BigNumMul" />
-      <item index="4" class="java.lang.String" itemvalue="Application.BinarySearch" />
+      <item index="0" class="java.lang.String" itemvalue="Application.RotateMinNum" />
+      <item index="1" class="java.lang.String" itemvalue="Application.PathInMatrix" />
+      <item index="2" class="java.lang.String" itemvalue="Application.BigNumMul" />
+      <item index="3" class="java.lang.String" itemvalue="Application.BinarySearch" />
+      <item index="4" class="java.lang.String" itemvalue="Application.BinarySearchTree" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.BinarySearch" />
-        <item index="1" class="java.lang.String" itemvalue="Application.BigNumMul" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PathInMatrix" />
-        <item index="3" class="java.lang.String" itemvalue="Application.RotateMinNum" />
-        <item index="4" class="java.lang.String" itemvalue="Application.FrogJmpStairs" />
+        <item index="0" class="java.lang.String" itemvalue="Application.BinarySearchTree" />
+        <item index="1" class="java.lang.String" itemvalue="Application.BinarySearch" />
+        <item index="2" class="java.lang.String" itemvalue="Application.BigNumMul" />
+        <item index="3" class="java.lang.String" itemvalue="Application.PathInMatrix" />
+        <item index="4" class="java.lang.String" itemvalue="Application.RotateMinNum" />
       </list>
     </recent_temporary>
   </component>
@@ -338,12 +349,14 @@
       <workItem from="1543575346091" duration="752000" />
       <workItem from="1543640146278" duration="604000" />
       <workItem from="1543641174283" duration="12281000" />
-      <workItem from="1543732203378" duration="8071000" />
+      <workItem from="1543732203378" duration="8742000" />
+      <workItem from="1543763124199" duration="1025000" />
+      <workItem from="1543826096620" duration="3788000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40016000" />
+    <option name="totallyTimeSpent" value="45500000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -373,7 +386,6 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -385,6 +397,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,11 +411,22 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/search/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2569#2570#0" expanded="true" />
+            <element signature="e#2610#2611#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/BigNumMul.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1332">
           <caret line="37" column="23" lean-forward="false" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -491,10 +515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
           <caret line="784" column="16" lean-forward="false" selection-start-line="784" selection-start-column="16" selection-end-line="784" selection-end-column="16" />
-          <folding>
-            <element signature="e#23214#23215#0" expanded="false" />
-            <element signature="e#23241#23242#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -502,7 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-793">
           <caret line="531" column="22" lean-forward="false" selection-start-line="531" selection-start-column="22" selection-end-line="531" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -510,42 +529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
           <caret line="301" column="26" lean-forward="false" selection-start-line="301" selection-start-column="26" selection-end-line="301" selection-end-column="43" />
-          <folding>
-            <element signature="docComment;class#Comparator#0" expanded="false" />
-            <element signature="docComment;method#compare#0;class#Comparator#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#Comparator#0" expanded="false" />
-            <element signature="docComment;method#reversed#0;class#Comparator#0" expanded="false" />
-            <element signature="docComment;method#thenComparing#0;class#Comparator#0" expanded="false" />
-            <element signature="method#thenComparing#0;class#Comparator#0" expanded="false" />
-            <element signature="e#9102#9225#0" expanded="false" />
-            <element signature="docComment;method#thenComparing#1;class#Comparator#0" expanded="false" />
-            <element signature="method#thenComparing#1;class#Comparator#0" expanded="false" />
-            <element signature="docComment;method#thenComparing#2;class#Comparator#0" expanded="false" />
-            <element signature="method#thenComparing#2;class#Comparator#0" expanded="false" />
-            <element signature="docComment;method#thenComparingInt#0;class#Comparator#0" expanded="false" />
-            <element signature="method#thenComparingInt#0;class#Comparator#0" expanded="false" />
-            <element signature="docComment;method#thenComparingLong#0;class#Comparator#0" expanded="false" />
-            <element signature="method#thenComparingLong#0;class#Comparator#0" expanded="false" />
-            <element signature="docComment;method#thenComparingDouble#0;class#Comparator#0" expanded="false" />
-            <element signature="method#thenComparingDouble#0;class#Comparator#0" expanded="false" />
-            <element signature="docComment;method#reverseOrder#0;class#Comparator#0" expanded="false" />
-            <element signature="docComment;method#naturalOrder#0;class#Comparator#0" expanded="false" />
-            <element signature="method#naturalOrder#0;class#Comparator#0" expanded="false" />
-            <element signature="docComment;method#nullsFirst#0;class#Comparator#0" expanded="false" />
-            <element signature="method#nullsFirst#0;class#Comparator#0" expanded="false" />
-            <element signature="docComment;method#nullsLast#0;class#Comparator#0" expanded="false" />
-            <element signature="method#nullsLast#0;class#Comparator#0" expanded="false" />
-            <element signature="docComment;method#comparing#0;class#Comparator#0" expanded="false" />
-            <element signature="method#comparing#0;class#Comparator#0" expanded="false" />
-            <element signature="docComment;method#comparing#1;class#Comparator#0" expanded="false" />
-            <element signature="method#comparing#1;class#Comparator#0" expanded="false" />
-            <element signature="docComment;method#comparingInt#0;class#Comparator#0" expanded="false" />
-            <element signature="method#comparingInt#0;class#Comparator#0" expanded="false" />
-            <element signature="docComment;method#comparingLong#0;class#Comparator#0" expanded="false" />
-            <element signature="method#comparingLong#0;class#Comparator#0" expanded="false" />
-            <element signature="docComment;method#comparingDouble#0;class#Comparator#0" expanded="false" />
-            <element signature="method#comparingDouble#0;class#Comparator#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -553,10 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="95" column="17" lean-forward="false" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
-          <folding>
-            <element signature="docComment;class#Comparable#0" expanded="false" />
-            <element signature="docComment;method#compareTo#0;class#Comparable#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -576,7 +555,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -584,7 +562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -592,11 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="29" />
-          <folding>
-            <element signature="method#isPathExistInMatrix#0;class#PathInMatrix#0" expanded="false" />
-            <element signature="method#isPathExistCore#0;class#PathInMatrix#0" expanded="false" />
-            <element signature="method#main#0;class#PathInMatrix#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -604,10 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="936">
           <caret line="26" column="64" lean-forward="false" selection-start-line="26" selection-start-column="64" selection-end-line="26" selection-end-column="64" />
-          <folding>
-            <element signature="e#715#716#0" expanded="false" />
-            <element signature="e#790#791#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -615,7 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -623,7 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -631,7 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -647,7 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="827">
           <caret line="67" column="34" lean-forward="true" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -656,7 +620,6 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="608">
             <caret line="28" column="72" lean-forward="false" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -666,182 +629,68 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="111" column="47" lean-forward="false" selection-start-line="111" selection-start-column="37" selection-end-line="111" selection-end-column="47" />
-          <folding>
-            <element signature="docComment;class#String#0" expanded="false" />
-            <element signature="docComment;field#value#0;class#String#0" expanded="false" />
-            <element signature="docComment;field#hash#0;class#String#0" expanded="false" />
-            <element signature="docComment;field#serialVersionUID#0;class#String#0" expanded="false" />
-            <element signature="docComment;field#serialPersistentFields#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#String#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#String#1;class#String#0" expanded="false" />
-            <element signature="method#String#1;class#String#0" expanded="false" />
-            <element signature="docComment;method#String#2;class#String#0" expanded="false" />
-            <element signature="docComment;method#String#3;class#String#0" expanded="false" />
-            <element signature="method#String#3;class#String#0" expanded="false" />
-            <element signature="docComment;method#String#4;class#String#0" expanded="false" />
-            <element signature="method#String#4;class#String#0" expanded="false" />
-            <element signature="docComment;method#String#5;class#String#0" expanded="false" />
-            <element signature="method#String#5;class#String#0" expanded="false" />
-            <element signature="docComment;method#String#6;class#String#0" expanded="false" />
-            <element signature="method#checkBounds#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#String#7;class#String#0" expanded="false" />
-            <element signature="method#String#7;class#String#0" expanded="false" />
-            <element signature="docComment;method#String#8;class#String#0" expanded="false" />
-            <element signature="method#String#8;class#String#0" expanded="false" />
-            <element signature="docComment;method#String#9;class#String#0" expanded="false" />
-            <element signature="method#String#9;class#String#0" expanded="false" />
-            <element signature="docComment;method#String#10;class#String#0" expanded="false" />
-            <element signature="docComment;method#String#11;class#String#0" expanded="false" />
-            <element signature="method#String#11;class#String#0" expanded="false" />
-            <element signature="docComment;method#String#12;class#String#0" expanded="false" />
-            <element signature="docComment;method#String#13;class#String#0" expanded="false" />
-            <element signature="method#String#13;class#String#0" expanded="false" />
-            <element signature="docComment;method#String#14;class#String#0" expanded="false" />
-            <element signature="method#String#15;class#String#0" expanded="false" />
-            <element signature="docComment;method#length#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#isEmpty#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#charAt#0;class#String#0" expanded="false" />
-            <element signature="method#charAt#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#codePointAt#0;class#String#0" expanded="false" />
-            <element signature="method#codePointAt#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#codePointBefore#0;class#String#0" expanded="false" />
-            <element signature="method#codePointBefore#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#codePointCount#0;class#String#0" expanded="false" />
-            <element signature="method#codePointCount#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#offsetByCodePoints#0;class#String#0" expanded="false" />
-            <element signature="method#offsetByCodePoints#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#getChars#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#getChars#1;class#String#0" expanded="false" />
-            <element signature="method#getChars#1;class#String#0" expanded="false" />
-            <element signature="docComment;method#getBytes#0;class#String#0" expanded="false" />
-            <element signature="method#getBytes#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#getBytes#1;class#String#0" expanded="false" />
-            <element signature="method#getBytes#1;class#String#0" expanded="false" />
-            <element signature="docComment;method#getBytes#2;class#String#0" expanded="false" />
-            <element signature="method#getBytes#2;class#String#0" expanded="false" />
-            <element signature="docComment;method#getBytes#3;class#String#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#String#0" expanded="false" />
-            <element signature="method#equals#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#contentEquals#0;class#String#0" expanded="false" />
-            <element signature="method#nonSyncContentEquals#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#contentEquals#1;class#String#0" expanded="false" />
-            <element signature="method#contentEquals#1;class#String#0" expanded="false" />
-            <element signature="docComment;method#equalsIgnoreCase#0;class#String#0" expanded="false" />
-            <element signature="method#equalsIgnoreCase#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#compareTo#0;class#String#0" expanded="false" />
-            <element signature="method#compareTo#0;class#String#0" expanded="false" />
-            <element signature="docComment;field#CASE_INSENSITIVE_ORDER#0;class#String#0" expanded="false" />
-            <element signature="class#CaseInsensitiveComparator#0;class#String#0" expanded="false" />
-            <element signature="method#compare#0;class#CaseInsensitiveComparator#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#readResolve#0;class#CaseInsensitiveComparator#0;class#String#0" expanded="false" />
-            <element signature="method#readResolve#0;class#CaseInsensitiveComparator#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#compareToIgnoreCase#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#regionMatches#0;class#String#0" expanded="false" />
-            <element signature="method#regionMatches#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#regionMatches#1;class#String#0" expanded="false" />
-            <element signature="method#regionMatches#1;class#String#0" expanded="false" />
-            <element signature="e#52980#53033#0" expanded="false" />
-            <element signature="e#53402#53466#0" expanded="false" />
-            <element signature="docComment;method#startsWith#0;class#String#0" expanded="false" />
-            <element signature="method#startsWith#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#startsWith#1;class#String#0" expanded="false" />
-            <element signature="docComment;method#endsWith#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#String#0" expanded="false" />
-            <element signature="method#hashCode#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#indexOf#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#indexOf#1;class#String#0" expanded="false" />
-            <element signature="method#indexOf#1;class#String#0" expanded="false" />
-            <element signature="e#60775#60829#0" expanded="false" />
-            <element signature="docComment;method#indexOfSupplementary#0;class#String#0" expanded="false" />
-            <element signature="method#indexOfSupplementary#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#lastIndexOf#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#lastIndexOf#1;class#String#0" expanded="false" />
-            <element signature="method#lastIndexOf#1;class#String#0" expanded="false" />
-            <element signature="e#64802#64856#0" expanded="false" />
-            <element signature="docComment;method#lastIndexOfSupplementary#0;class#String#0" expanded="false" />
-            <element signature="method#lastIndexOfSupplementary#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#indexOf#2;class#String#0" expanded="false" />
-            <element signature="docComment;method#indexOf#3;class#String#0" expanded="false" />
-            <element signature="method#indexOf#3;class#String#0" expanded="false" />
-            <element signature="docComment;method#indexOf#4;class#String#0" expanded="false" />
-            <element signature="method#indexOf#4;class#String#0" expanded="false" />
-            <element signature="docComment;method#indexOf#5;class#String#0" expanded="false" />
-            <element signature="method#indexOf#5;class#String#0" expanded="false" />
-            <element signature="docComment;method#lastIndexOf#2;class#String#0" expanded="false" />
-            <element signature="docComment;method#lastIndexOf#3;class#String#0" expanded="false" />
-            <element signature="method#lastIndexOf#3;class#String#0" expanded="false" />
-            <element signature="docComment;method#lastIndexOf#4;class#String#0" expanded="false" />
-            <element signature="method#lastIndexOf#4;class#String#0" expanded="false" />
-            <element signature="docComment;method#lastIndexOf#5;class#String#0" expanded="false" />
-            <element signature="method#lastIndexOf#5;class#String#0" expanded="false" />
-            <element signature="docComment;method#substring#0;class#String#0" expanded="false" />
-            <element signature="method#substring#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#substring#1;class#String#0" expanded="false" />
-            <element signature="method#substring#1;class#String#0" expanded="false" />
-            <element signature="docComment;method#subSequence#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#concat#0;class#String#0" expanded="false" />
-            <element signature="method#concat#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#replace#0;class#String#0" expanded="false" />
-            <element signature="method#replace#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#matches#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#contains#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#replaceFirst#0;class#String#0" expanded="false" />
-            <element signature="method#replaceFirst#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#replaceAll#0;class#String#0" expanded="false" />
-            <element signature="method#replaceAll#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#replace#1;class#String#0" expanded="false" />
-            <element signature="method#replace#1;class#String#0" expanded="false" />
-            <element signature="docComment;method#split#0;class#String#0" expanded="false" />
-            <element signature="method#split#0;class#String#0" expanded="false" />
-            <element signature="e#92274#92285#0" expanded="false" />
-            <element signature="docComment;method#split#1;class#String#0" expanded="false" />
-            <element signature="docComment;method#join#0;class#String#0" expanded="false" />
-            <element signature="method#join#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#join#1;class#String#0" expanded="false" />
-            <element signature="method#join#1;class#String#0" expanded="false" />
-            <element signature="docComment;method#toLowerCase#0;class#String#0" expanded="false" />
-            <element signature="method#toLowerCase#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#toLowerCase#1;class#String#0" expanded="false" />
-            <element signature="docComment;method#toUpperCase#0;class#String#0" expanded="false" />
-            <element signature="method#toUpperCase#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#toUpperCase#1;class#String#0" expanded="false" />
-            <element signature="docComment;method#trim#0;class#String#0" expanded="false" />
-            <element signature="method#trim#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#toString#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#toCharArray#0;class#String#0" expanded="false" />
-            <element signature="method#toCharArray#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#format#0;class#String#0" expanded="false" />
-            <element signature="method#format#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#format#1;class#String#0" expanded="false" />
-            <element signature="method#format#1;class#String#0" expanded="false" />
-            <element signature="docComment;method#valueOf#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#valueOf#1;class#String#0" expanded="false" />
-            <element signature="docComment;method#valueOf#2;class#String#0" expanded="false" />
-            <element signature="docComment;method#copyValueOf#0;class#String#0" expanded="false" />
-            <element signature="docComment;method#copyValueOf#1;class#String#0" expanded="false" />
-            <element signature="docComment;method#valueOf#3;class#String#0" expanded="false" />
-            <element signature="docComment;method#valueOf#4;class#String#0" expanded="false" />
-            <element signature="method#valueOf#4;class#String#0" expanded="false" />
-            <element signature="docComment;method#valueOf#5;class#String#0" expanded="false" />
-            <element signature="docComment;method#valueOf#6;class#String#0" expanded="false" />
-            <element signature="docComment;method#valueOf#7;class#String#0" expanded="false" />
-            <element signature="docComment;method#valueOf#8;class#String#0" expanded="false" />
-            <element signature="docComment;method#intern#0;class#String#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/search/BinarySearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+        <state relative-caret-position="398">
+          <caret line="75" column="7" lean-forward="true" selection-start-line="75" selection-start-column="7" selection-end-line="75" selection-end-column="7" />
           <folding>
             <element signature="docComment;class#BinarySearch#0" expanded="false" />
             <element signature="method#BinarySearch#0;class#BinarySearch#0" expanded="false" />
             <element signature="method#put#0;class#BinarySearch#0" expanded="false" />
             <element signature="method#resize#0;class#BinarySearch#0" expanded="false" />
             <element signature="method#rank#0;class#BinarySearch#0" expanded="false" />
-            <element signature="method#get#0;class#BinarySearch#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Software/jdk1.8/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="150" column="33" lean-forward="true" selection-start-line="150" selection-start-column="33" selection-end-line="150" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#8063#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Software/jdk1.8/jre/lib/rt.jar!/sun/security/krb5/internal/ccache/Tag.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Software/jdk1.8/src.zip!/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="71" column="17" lean-forward="false" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Software/jdk1.8/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="771" column="25" lean-forward="false" selection-start-line="771" selection-start-column="25" selection-end-line="771" selection-end-column="25" />
+          <folding>
+            <element signature="e#32010#32011#0" expanded="true" />
+            <element signature="e#32095#32096#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/search/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="92" column="38" lean-forward="false" selection-start-line="92" selection-start-column="38" selection-end-line="92" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2569#2570#0" expanded="true" />
+            <element signature="e#2610#2611#0" expanded="true" />
           </folding>
         </state>
       </provider>
