@@ -28,5 +28,7 @@
 
 [搜索算法](https://github.com/HusterYP/CodeInterviews/blob/master/src/search)
 
+[生产者和消费者](https://github.com/HusterYP/CodeInterviews/blob/master/src/consumer_and_producer)
+
 
 

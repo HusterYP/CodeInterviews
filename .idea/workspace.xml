@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d2a6134b-3b45-4abf-9502-80088920f144" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReadMe.md" afterPath="$PROJECT_DIR$/ReadMe.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,16 +14,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="BinarySearchTree.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/search/BinarySearchTree.java">
+    <leaf>
+      <file leaf-file-name="ConsumerProducer4.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/consumer_and_producer/ConsumerProducer4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="92" column="38" lean-forward="false" selection-start-line="92" selection-start-column="38" selection-end-line="92" selection-end-column="38" />
+            <state relative-caret-position="504">
+              <caret line="16" column="73" lean-forward="true" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsumerProducer5.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/consumer_and_producer/ConsumerProducer5.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="19" column="61" lean-forward="true" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2569#2570#0" expanded="true" />
-                <element signature="e#2610#2611#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -36,6 +45,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Sys</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,9 +82,14 @@
         <option value="$PROJECT_DIR$/src/RotateMinNum.java" />
         <option value="$PROJECT_DIR$/src/PathInMatrix.java" />
         <option value="$PROJECT_DIR$/src/BigNumMul.java" />
-        <option value="$PROJECT_DIR$/ReadMe.md" />
         <option value="$PROJECT_DIR$/src/search/BinarySearch.java" />
         <option value="$PROJECT_DIR$/src/search/BinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/ReadMe.md" />
+        <option value="$PROJECT_DIR$/src/consumer_and_producer/ConsumerProducer1.java" />
+        <option value="$PROJECT_DIR$/src/consumer_and_producer/ConsumerProducer2.java" />
+        <option value="$PROJECT_DIR$/src/consumer_and_producer/ConsumerProducer3.java" />
+        <option value="$PROJECT_DIR$/src/consumer_and_producer/ConsumerProducer4.java" />
+        <option value="$PROJECT_DIR$/src/consumer_and_producer/ConsumerProducer5.java" />
       </list>
     </option>
   </component>
@@ -102,6 +121,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -118,16 +139,14 @@
               <item name="CodeInterviews" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodeInterviews" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer_and_producer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -149,29 +168,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinarySearchTree">
-    <configuration name="BigNumMul" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="BigNumMul" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="CodeInterviews" />
-      <envs />
-    </configuration>
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.ConsumerProducer5">
+    <configuration name="ConsumerProducer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="search.*" />
+          <option name="PATTERN" value="consumer_and_producer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="search.BinarySearch" />
+      <option name="MAIN_CLASS_NAME" value="consumer_and_producer.ConsumerProducer1" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -183,14 +188,14 @@
       <module name="CodeInterviews" />
       <envs />
     </configuration>
-    <configuration name="BinarySearchTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ConsumerProducer2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="search.*" />
+          <option name="PATTERN" value="consumer_and_producer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="search.BinarySearchTree" />
+      <option name="MAIN_CLASS_NAME" value="consumer_and_producer.ConsumerProducer2" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -202,9 +207,14 @@
       <module name="CodeInterviews" />
       <envs />
     </configuration>
-    <configuration name="PathInMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="PathInMatrix" />
+    <configuration name="ConsumerProducer3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="consumer_and_producer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="consumer_and_producer.ConsumerProducer3" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -216,9 +226,33 @@
       <module name="CodeInterviews" />
       <envs />
     </configuration>
-    <configuration name="RotateMinNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="RotateMinNum" />
+    <configuration name="ConsumerProducer4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="consumer_and_producer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="consumer_and_producer.ConsumerProducer4" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="CodeInterviews" />
+      <envs />
+    </configuration>
+    <configuration name="ConsumerProducer5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="consumer_and_producer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="consumer_and_producer.ConsumerProducer5" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -312,19 +346,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.RotateMinNum" />
-      <item index="1" class="java.lang.String" itemvalue="Application.PathInMatrix" />
-      <item index="2" class="java.lang.String" itemvalue="Application.BigNumMul" />
-      <item index="3" class="java.lang.String" itemvalue="Application.BinarySearch" />
-      <item index="4" class="java.lang.String" itemvalue="Application.BinarySearchTree" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ConsumerProducer1" />
+      <item index="1" class="java.lang.String" itemvalue="Application.ConsumerProducer2" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ConsumerProducer3" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ConsumerProducer4" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ConsumerProducer5" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.BinarySearchTree" />
-        <item index="1" class="java.lang.String" itemvalue="Application.BinarySearch" />
-        <item index="2" class="java.lang.String" itemvalue="Application.BigNumMul" />
-        <item index="3" class="java.lang.String" itemvalue="Application.PathInMatrix" />
-        <item index="4" class="java.lang.String" itemvalue="Application.RotateMinNum" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ConsumerProducer5" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ConsumerProducer4" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ConsumerProducer3" />
+        <item index="3" class="java.lang.String" itemvalue="Application.ConsumerProducer2" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ConsumerProducer1" />
       </list>
     </recent_temporary>
   </component>
@@ -351,12 +385,13 @@
       <workItem from="1543641174283" duration="12281000" />
       <workItem from="1543732203378" duration="8742000" />
       <workItem from="1543763124199" duration="1025000" />
-      <workItem from="1543826096620" duration="3788000" />
+      <workItem from="1543826096620" duration="5109000" />
+      <workItem from="1543844941861" duration="4034000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45500000" />
+    <option name="totallyTimeSpent" value="50855000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -379,19 +414,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52895325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6091314" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.73051226" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -415,11 +450,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2569#2570#0" expanded="true" />
-            <element signature="e#2610#2611#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -434,11 +464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#get#0;class#StackToQueue#0" expanded="false" />
-            <element signature="method#remove#0;class#StackToQueue#0" expanded="false" />
-            <element signature="method#main#0;class#StackToQueue#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -543,11 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-          <folding>
-            <element signature="method#get#0;class#StackToQueue#0" expanded="false" />
-            <element signature="method#remove#0;class#StackToQueue#0" expanded="false" />
-            <element signature="method#main#0;class#StackToQueue#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -604,7 +624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -612,16 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="827">
           <caret line="67" column="34" lean-forward="true" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ReadMe.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="608">
-            <caret line="28" column="72" lean-forward="false" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -636,13 +645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="398">
           <caret line="75" column="7" lean-forward="true" selection-start-line="75" selection-start-column="7" selection-end-line="75" selection-end-column="7" />
-          <folding>
-            <element signature="docComment;class#BinarySearch#0" expanded="false" />
-            <element signature="method#BinarySearch#0;class#BinarySearch#0" expanded="false" />
-            <element signature="method#put#0;class#BinarySearch#0" expanded="false" />
-            <element signature="method#resize#0;class#BinarySearch#0" expanded="false" />
-            <element signature="method#rank#0;class#BinarySearch#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -660,7 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -677,20 +678,79 @@
         <state relative-caret-position="287">
           <caret line="771" column="25" lean-forward="false" selection-start-line="771" selection-start-column="25" selection-end-line="771" selection-end-column="25" />
           <folding>
-            <element signature="e#32010#32011#0" expanded="true" />
-            <element signature="e#32095#32096#0" expanded="true" />
+            <element signature="e#32010#32011#0" expanded="false" />
+            <element signature="e#32095#32096#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/search/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="92" column="38" lean-forward="false" selection-start-line="92" selection-start-column="38" selection-end-line="92" selection-end-column="38" />
+        <state relative-caret-position="972">
+          <caret line="119" column="43" lean-forward="false" selection-start-line="119" selection-start-column="43" selection-end-line="119" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="644">
+            <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/consumer_and_producer/ConsumerProducer2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="35" column="96" lean-forward="true" selection-start-line="35" selection-start-column="96" selection-end-line="35" selection-end-column="96" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2569#2570#0" expanded="true" />
-            <element signature="e#2610#2611#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/consumer_and_producer/ConsumerProducer1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="61" selection-end-column="1" />
+          <folding>
+            <element signature="docComment;class#ConsumerProducer1#0" expanded="false" />
+            <element signature="method#main#0;class#ConsumerProducer1#0" expanded="false" />
+            <element signature="class#Consumer#0;class#ConsumerProducer1#0" expanded="false" />
+            <element signature="method#run#0;class#Consumer#0;class#ConsumerProducer1#0" expanded="false" />
+            <element signature="class#Producer#0;class#ConsumerProducer1#0" expanded="false" />
+            <element signature="method#run#0;class#Producer#0;class#ConsumerProducer1#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/consumer_and_producer/ConsumerProducer3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/consumer_and_producer/ConsumerProducer4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="16" column="73" lean-forward="true" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/consumer_and_producer/ConsumerProducer5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="19" column="61" lean-forward="true" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
