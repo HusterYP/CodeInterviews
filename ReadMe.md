@@ -22,7 +22,7 @@
 
 [大数相乘](https://github.com/HusterYP/CodeInterviews/blob/master/src/BigNumMul.java)
 
-[大数相乘](https://github.com/HusterYP/CodeInterviews/blob/master/src/singleton)
+[单例模式](https://github.com/HusterYP/CodeInterviews/blob/master/src/singleton)
 
 [LRU算法](https://github.com/HusterYP/CodeInterviews/blob/master/src/lru)
 
