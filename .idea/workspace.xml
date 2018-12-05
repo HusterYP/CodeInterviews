@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2a6134b-3b45-4abf-9502-80088920f144" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="d2a6134b-3b45-4abf-9502-80088920f144" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,13 +11,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ChildNumMax.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ChildNumMax.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="DepthAndWidthOfTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DepthAndWidthOfTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="396">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -36,7 +36,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Sys</find>
+      <find>TreeNode</find>
     </findStrings>
+    <replaceStrings>
+      <replace>Node</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,6 +82,8 @@
         <option value="$PROJECT_DIR$/src/consumer_and_producer/ConsumerProducer4.java" />
         <option value="$PROJECT_DIR$/src/consumer_and_producer/ConsumerProducer5.java" />
         <option value="$PROJECT_DIR$/src/Demo.java" />
+        <option value="$PROJECT_DIR$/src/DepthOfTree.java" />
+        <option value="$PROJECT_DIR$/src/DepthAndWidthOfTree.java" />
       </list>
     </option>
   </component>
@@ -109,7 +115,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -126,8 +134,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -370,11 +376,12 @@
       <workItem from="1543826096620" duration="5109000" />
       <workItem from="1543844941861" duration="4240000" />
       <workItem from="1543925352907" duration="4245000" />
+      <workItem from="1543998461356" duration="670000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55306000" />
+    <option name="totallyTimeSpent" value="55976000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -387,6 +394,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -400,7 +408,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.73051226" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -428,6 +436,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/ChildNumMax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/search/BinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -634,7 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
           <caret line="71" column="17" lean-forward="false" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -660,14 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="18" column="43" lean-forward="false" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-          <folding>
-            <element signature="initializer##0;class#ConsumerProducer5#0" expanded="false" />
-            <element signature="method#main#0;class#ConsumerProducer5#0" expanded="false" />
-            <element signature="class#Producer#0;class#ConsumerProducer5#0" expanded="false" />
-            <element signature="method#run#0;class#Producer#0;class#ConsumerProducer5#0" expanded="false" />
-            <element signature="class#Consumer#0;class#ConsumerProducer5#0" expanded="false" />
-            <element signature="method#run#0;class#Consumer#0;class#ConsumerProducer5#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -682,7 +689,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="71">
           <caret line="179" column="17" lean-forward="false" selection-start-line="179" selection-start-column="17" selection-end-line="179" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -690,139 +696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="503">
           <caret line="110" column="29" lean-forward="true" selection-start-line="110" selection-start-column="29" selection-end-line="110" selection-end-column="29" />
-          <folding>
-            <element signature="docComment;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;field#serialVersionUID#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;field#items#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;field#takeIndex#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;field#putIndex#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;field#count#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;field#lock#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;field#notEmpty#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;field#notFull#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;field#itrs#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#dec#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#itemAt#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#checkNotNull#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#checkNotNull#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#enqueue#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#enqueue#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="e#4253#4288#0" expanded="false" />
-            <element signature="docComment;method#dequeue#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#dequeue#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="e#4680#4715#0" expanded="false" />
-            <element signature="docComment;method#removeAt#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#removeAt#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="e#5315#5350#0" expanded="false" />
-            <element signature="e#5828#5851#0" expanded="false" />
-            <element signature="docComment;method#ArrayBlockingQueue#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#ArrayBlockingQueue#1;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#ArrayBlockingQueue#1;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#ArrayBlockingQueue#2;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#ArrayBlockingQueue#2;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#add#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#offer#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#offer#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#put#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#put#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#offer#1;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#offer#1;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#poll#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#take#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#poll#1;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#peek#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="e#13226#13298#0" expanded="false" />
-            <element signature="docComment;method#size#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#size#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="e#13672#13740#0" expanded="false" />
-            <element signature="docComment;method#remainingCapacity#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#remainingCapacity#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#remove#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#remove#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#contains#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#contains#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#toArray#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#toArray#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#toArray#1;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#toArray#1;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#toString#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#clear#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#clear#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#drainTo#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#drainTo#1;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#drainTo#1;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#iterator#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;class#Itrs#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="class#Itrs#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;class#Node#0;class#Itrs#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="class#Node#0;class#Itrs#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#Node#0;class#Node#0;class#Itrs#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;field#cycles#0;class#Itrs#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;field#head#0;class#Itrs#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;field#sweeper#0;class#Itrs#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#doSomeSweeping#0;class#Itrs#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#doSomeSweeping#0;class#Itrs#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="e#28831#28866#0" expanded="false" />
-            <element signature="docComment;method#register#0;class#Itrs#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#register#0;class#Itrs#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#takeIndexWrapped#0;class#Itrs#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#takeIndexWrapped#0;class#Itrs#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="e#31247#31258#0" expanded="false" />
-            <element signature="docComment;method#removedAt#0;class#Itrs#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#removedAt#0;class#Itrs#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="e#32181#32192#0" expanded="false" />
-            <element signature="docComment;method#queueIsEmpty#0;class#Itrs#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#queueIsEmpty#0;class#Itrs#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#elementDequeued#0;class#Itrs#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#elementDequeued#0;class#Itrs#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;class#Itr#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="class#Itr#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;field#cursor#0;class#Itr#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;field#nextItem#0;class#Itr#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;field#nextIndex#0;class#Itr#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;field#lastItem#0;class#Itr#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;field#lastRet#0;class#Itr#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;field#prevTakeIndex#0;class#Itr#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;field#prevCycles#0;class#Itr#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;field#NONE#0;class#Itr#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;field#REMOVED#0;class#Itr#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;field#DETACHED#0;class#Itr#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#Itr#0;class#Itr#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="e#36687#36712#0" expanded="false" />
-            <element signature="method#isDetached#0;class#Itr#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#incCursor#0;class#Itr#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#invalidated#0;class#Itr#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#invalidated#0;class#Itr#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#incorporateDequeues#0;class#Itr#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#incorporateDequeues#0;class#Itr#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="e#38076#38111#0" expanded="false" />
-            <element signature="e#38575#38627#0" expanded="false" />
-            <element signature="docComment;method#detach#0;class#Itr#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#detach#0;class#Itr#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="e#39847#39873#0" expanded="false" />
-            <element signature="docComment;method#hasNext#0;class#Itr#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#hasNext#0;class#Itr#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#noNext#0;class#Itr#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="e#41016#41041#0" expanded="false" />
-            <element signature="e#41469#41492#0" expanded="false" />
-            <element signature="method#next#0;class#Itr#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="e#42024#42052#0" expanded="false" />
-            <element signature="method#remove#0;class#Itr#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="e#43529#43589#0" expanded="false" />
-            <element signature="e#43874#43900#0" expanded="false" />
-            <element signature="docComment;method#shutdown#0;class#Itr#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#shutdown#0;class#Itr#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="e#44619#44679#0" expanded="false" />
-            <element signature="method#distance#0;class#Itr#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#removedAt#0;class#Itr#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#removedAt#0;class#Itr#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="docComment;method#takeIndexWrapped#0;class#Itr#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#takeIndexWrapped#0;class#Itr#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="e#47676#47732#0" expanded="false" />
-            <element signature="e#47910#47952#0" expanded="false" />
-            <element signature="docComment;method#spliterator#0;class#ArrayBlockingQueue#0" expanded="false" />
-            <element signature="method#spliterator#0;class#ArrayBlockingQueue#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -851,106 +724,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
           <caret line="166" column="17" lean-forward="true" selection-start-line="166" selection-start-column="17" selection-end-line="166" selection-end-column="17" />
-          <folding>
-            <element signature="docComment;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;field#table#0;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;field#count#0;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;field#threshold#0;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;field#loadFactor#0;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;field#modCount#0;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;field#serialVersionUID#0;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;method#Hashtable#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#Hashtable#0;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;method#Hashtable#1;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;method#Hashtable#2;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;method#Hashtable#3;class#Hashtable#0" expanded="false" />
-            <element signature="method#Hashtable#3;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;method#size#0;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;method#isEmpty#0;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;method#keys#0;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;method#elements#0;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;method#contains#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#contains#0;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;method#containsValue#0;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;method#containsKey#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#containsKey#0;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;method#get#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#get#0;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;field#MAX_ARRAY_SIZE#0;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;method#rehash#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#rehash#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#addEntry#0;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;method#put#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#put#0;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;method#remove#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#remove#0;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;method#putAll#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#putAll#0;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;method#clear#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#clear#0;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;method#clone#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#clone#0;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;method#toString#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#toString#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#getEnumeration#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#getIterator#0;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;field#keySet#0;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;method#keySet#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#keySet#0;class#Hashtable#0" expanded="false" />
-            <element signature="class#KeySet#0;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;method#entrySet#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#entrySet#0;class#Hashtable#0" expanded="false" />
-            <element signature="class#EntrySet#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#contains#0;class#EntrySet#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#remove#0;class#EntrySet#0;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;method#values#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#values#0;class#Hashtable#0" expanded="false" />
-            <element signature="class#ValueCollection#0;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;method#equals#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#equals#0;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#hashCode#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#getOrDefault#0;class#Hashtable#0" expanded="false" />
-            <element signature="e#30615#30645#0" expanded="false" />
-            <element signature="e#30615#30645#0" expanded="false" />
-            <element signature="method#forEach#0;class#Hashtable#0" expanded="false" />
-            <element signature="e#31309#31339#0" expanded="false" />
-            <element signature="e#31309#31339#0" expanded="false" />
-            <element signature="method#replaceAll#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#putIfAbsent#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#remove#1;class#Hashtable#0" expanded="false" />
-            <element signature="method#replace#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#replace#1;class#Hashtable#0" expanded="false" />
-            <element signature="method#computeIfAbsent#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#computeIfPresent#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#compute#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#merge#0;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;method#writeObject#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#writeObject#0;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;method#readObject#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#readObject#0;class#Hashtable#0" expanded="false" />
-            <element signature="e#41441#41503#0" expanded="false" />
-            <element signature="e#41651#41710#0" expanded="false" />
-            <element signature="e#42128#42192#0" expanded="false" />
-            <element signature="docComment;method#reconstitutionPut#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#reconstitutionPut#0;class#Hashtable#0" expanded="false" />
-            <element signature="e#43624#43678#0" expanded="false" />
-            <element signature="docComment;class#Entry#0;class#Hashtable#0" expanded="false" />
-            <element signature="class#Entry#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#Entry#0;class#Entry#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#clone#0;class#Entry#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#setValue#0;class#Entry#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#equals#0;class#Entry#0;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;class#Enumerator#0;class#Hashtable#0" expanded="false" />
-            <element signature="class#Enumerator#0;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;field#iterator#0;class#Enumerator#0;class#Hashtable#0" expanded="false" />
-            <element signature="docComment;field#expectedModCount#0;class#Enumerator#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#Enumerator#0;class#Enumerator#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#hasMoreElements#0;class#Enumerator#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#nextElement#0;class#Enumerator#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#next#0;class#Enumerator#0;class#Hashtable#0" expanded="false" />
-            <element signature="method#remove#0;class#Enumerator#0;class#Hashtable#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -967,25 +740,27 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="-169">
             <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Demo.java">
+    <entry file="file://$PROJECT_DIR$/src/Demo.java" />
+    <entry file="file://$PROJECT_DIR$/src/ChildNumMax.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+        <state relative-caret-position="449">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ChildNumMax.java">
+    <entry file="file://$PROJECT_DIR$/src/DepthAndWidthOfTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="396">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
