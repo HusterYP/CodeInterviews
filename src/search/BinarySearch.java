@@ -62,10 +62,12 @@ public class BinarySearch<Key extends Comparable<Key>, Value> {
         while (low <= high) {
             if (key.compareTo(keys[mid]) < 0) {
                 low = mid + 1;
-                mid = (low + high) / 2;
+//                mid = (low + high) / 2; // 注意此处的(low+high)可能会溢出
+                mid = (high - low) / 2 + low; // 改进
             } else {
                 high = mid - 1;
-                mid = (low + high) / 2;
+//                mid = (low + high) / 2; // 注意此处的(low+high)可能会溢出
+                mid = (high - low) / 2 + low; // 改进
             }
         }
         return N > 0 && key.compareTo(keys[mid]) == 0 ? mid : low;
