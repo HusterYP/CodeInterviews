@@ -9,11 +9,11 @@ import java.util.LinkedList;
  * 总结:
  * 涉及到二叉树的题目, 通常可以使用递归解决, 如果不能用递归, 那么可以考虑结合栈, 队列等来辅助解决
  */
-public class BinaryTree<Value> {
+public class BinaryTree {
     class Node {
         Node left;
         Node right;
-        Value value;
+        int value;
     }
 
     /**
@@ -230,5 +230,83 @@ public class BinaryTree<Value> {
         }
         getNodePath(head.left, target, path, temp);
         getNodePath(head.right, target, path, temp);
+    }
+
+    /**
+     * 求二叉树中节点的最大距离
+     * https://blog.csdn.net/liuyi1207164339/article/details/50898902
+     * 提供了一个O(n)的解法: https://www.geeksforgeeks.org/diameter-of-a-binary-tree/
+     */
+    public int getMaxDistance(Node head) {
+        if (head == null)
+            return 0;
+        int leftDepth = getDepth(head.left);
+        int rightDepth = getDepth(head.right);
+        int lChildDistance = getMaxDistance(head.left);
+        int rChildDistance = getMaxDistance(head.right);
+        return Math.max(leftDepth + rightDepth + 1, lChildDistance + rChildDistance);
+    }
+
+    /**
+     * 由前序遍历和中序遍历重建二叉树
+     */
+    public Node rebuildTree(int[] preOrder, int[] midOrder) {
+        if (preOrder == null || midOrder == null || preOrder.length != midOrder.length || preOrder.length <= 0 || midOrder.length <= 0)
+            return null;
+        Node head = new Node();
+        head.value = preOrder[0];
+        int length = midOrder.length;
+        int rootIndex = -1;
+        for (int i = 0; i < length; i++) {
+            if (midOrder[i] == preOrder[0]) {
+                rootIndex = i;
+                break;
+            }
+        }
+        if (rootIndex < 0)
+            throw new IllegalArgumentException();
+        int leftPreOrder[] = new int[preOrder.length - 1];
+        System.arraycopy(preOrder, 1, leftPreOrder, 0, leftPreOrder.length);
+        int leftMidOrder[] = new int[midOrder.length - rootIndex];
+        System.arraycopy(midOrder, 0, leftMidOrder, 0, leftMidOrder.length);
+        head.left = rebuildTree(leftPreOrder, leftMidOrder);
+
+        int rightPreOrder[] = new int[preOrder.length - 1 - rootIndex];
+        System.arraycopy(preOrder, 1 + rootIndex, rightPreOrder, 0, rightPreOrder.length);
+        int rightMidOrder[] = new int[rightPreOrder.length];
+        System.arraycopy(midOrder, rootIndex + 1, rightMidOrder, 0, rightMidOrder.length);
+        head.right = rebuildTree(rightPreOrder, rightMidOrder);
+        return head;
+    }
+
+    /**
+     * 判断二叉树是否为完全二叉树
+     */
+    public boolean isCompleteBinaryTree(Node head) {
+        if (head == null)
+            return true;
+        boolean mustHasNoChild = false;
+        LinkedList<Node> nodes = new LinkedList<>();
+        nodes.addLast(head);
+        while (!nodes.isEmpty()) {
+            Node top = nodes.removeFirst();
+            if (mustHasNoChild) {
+                if (top.left != null || top.right != null)
+                    return false;
+            } else {
+                if (top.left != null && top.right != null) {
+                    nodes.addLast(top.left);
+                    nodes.addLast(top.right);
+                } else if (top.left != null) {
+                    nodes.addLast(top.left);
+                    mustHasNoChild = true;
+                } else if (top.right != null) {
+                    return false;
+                } else {
+                    mustHasNoChild = true;
+                }
+            }
+        }
+        return true;
     }
 }

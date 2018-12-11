@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d2a6134b-3b45-4abf-9502-80088920f144" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/search/BinarySearch.java" afterPath="$PROJECT_DIR$/src/search/BinarySearch.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tree/BinaryTree.java" afterPath="$PROJECT_DIR$/src/tree/BinaryTree.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,10 +18,48 @@
       <file leaf-file-name="BinaryTree.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tree/BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="218" column="0" lean-forward="false" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
+            <state relative-caret-position="614">
+              <caret line="284" column="51" lean-forward="false" selection-start-line="284" selection-start-column="51" selection-end-line="284" selection-end-column="51" />
               <folding>
+                <element signature="docComment;class#BinaryTree#0" expanded="false" />
+                <element signature="class#Node#0;class#BinaryTree#0" expanded="false" />
+                <element signature="docComment;method#getNodeCount#0;class#BinaryTree#0" expanded="false" />
+                <element signature="method#getNodeCount#0;class#BinaryTree#0" expanded="false" />
+                <element signature="docComment;method#getDepth#0;class#BinaryTree#0" expanded="false" />
+                <element signature="method#getDepth#0;class#BinaryTree#0" expanded="false" />
+                <element signature="docComment;method#preOrderTraverse#0;class#BinaryTree#0" expanded="false" />
+                <element signature="method#preOrderTraverse#0;class#BinaryTree#0" expanded="false" />
+                <element signature="docComment;method#inOrderTraverse#0;class#BinaryTree#0" expanded="false" />
+                <element signature="method#inOrderTraverse#0;class#BinaryTree#0" expanded="false" />
+                <element signature="docComment;method#postOrderTraverse#0;class#BinaryTree#0" expanded="false" />
+                <element signature="method#postOrderTraverse#0;class#BinaryTree#0" expanded="false" />
+                <element signature="method#visitNode#0;class#BinaryTree#0" expanded="false" />
+                <element signature="docComment;method#levelTraverse#0;class#BinaryTree#0" expanded="false" />
+                <element signature="method#levelTraverse#0;class#BinaryTree#0" expanded="false" />
+                <element signature="docComment;field#listHead#0;class#BinaryTree#0" expanded="false" />
+                <element signature="method#convertToList#0;class#BinaryTree#0" expanded="false" />
+                <element signature="method#visit#0;class#BinaryTree#0" expanded="false" />
+                <element signature="method#convertToListCore#0;class#BinaryTree#0" expanded="false" />
+                <element signature="docComment;method#getNodeNumKthLevel#0;class#BinaryTree#0" expanded="false" />
+                <element signature="method#getNodeNumKthLevel#0;class#BinaryTree#0" expanded="false" />
+                <element signature="docComment;method#getLeafNodeNum#0;class#BinaryTree#0" expanded="false" />
+                <element signature="method#getLeafNodeNum#0;class#BinaryTree#0" expanded="false" />
+                <element signature="docComment;method#structureCmp#0;class#BinaryTree#0" expanded="false" />
+                <element signature="method#structureCmp#0;class#BinaryTree#0" expanded="false" />
+                <element signature="docComment;method#isAVL#0;class#BinaryTree#0" expanded="false" />
+                <element signature="method#isAVL#0;class#BinaryTree#0" expanded="false" />
+                <element signature="method#getDepth#1;class#BinaryTree#0" expanded="false" />
+                <element signature="docComment;method#mirror#0;class#BinaryTree#0" expanded="false" />
+                <element signature="method#mirror#0;class#BinaryTree#0" expanded="false" />
+                <element signature="docComment;method#fatherNode#0;class#BinaryTree#0" expanded="false" />
+                <element signature="method#fatherNode#0;class#BinaryTree#0" expanded="false" />
                 <element signature="method#getNodePath#0;class#BinaryTree#0" expanded="false" />
+                <element signature="docComment;method#getMaxDistance#0;class#BinaryTree#0" expanded="false" />
+                <element signature="method#getMaxDistance#0;class#BinaryTree#0" expanded="false" />
+                <element signature="docComment;method#rebuildTree#0;class#BinaryTree#0" expanded="false" />
+                <element signature="method#rebuildTree#0;class#BinaryTree#0" expanded="false" />
+                <element signature="docComment;method#isCompleteBinaryTree#0;class#BinaryTree#0" expanded="false" />
+                <element signature="method#isCompleteBinaryTree#0;class#BinaryTree#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -123,7 +160,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,9 +186,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -400,12 +437,14 @@
       <workItem from="1544073813497" duration="1250000" />
       <workItem from="1544098854015" duration="5574000" />
       <workItem from="1544161784059" duration="220000" />
-      <workItem from="1544358859869" duration="6758000" />
+      <workItem from="1544358859869" duration="6890000" />
+      <workItem from="1544406608520" duration="1513000" />
+      <workItem from="1544526771131" duration="5468000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70668000" />
+    <option name="totallyTimeSpent" value="77781000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -427,14 +466,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.54899776" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6091314" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.72939867" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -447,10 +485,37 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -462,13 +527,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/StackToQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/RebuildBiTree.java" />
     <entry file="file://$PROJECT_DIR$/src/RebuildBiTree.java" />
     <entry file="file://$PROJECT_DIR$/src/RebuildBiTree.java" />
@@ -743,12 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="68" column="65" lean-forward="true" selection-start-line="68" selection-start-column="65" selection-end-line="68" selection-end-column="65" />
-          <folding>
-            <element signature="docComment;class#BinarySearch#0" expanded="false" />
-            <element signature="method#BinarySearch#0;class#BinarySearch#0" expanded="false" />
-            <element signature="method#put#0;class#BinarySearch#0" expanded="false" />
-            <element signature="method#resize#0;class#BinarySearch#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -756,17 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="docComment;class#BinarySearchTree#0" expanded="false" />
-            <element signature="class#Node#0;class#BinarySearchTree#0" expanded="false" />
-            <element signature="method#put#0;class#BinarySearchTree#0" expanded="false" />
-            <element signature="method#get#0;class#BinarySearchTree#0" expanded="false" />
-            <element signature="method#min#0;class#BinarySearchTree#0" expanded="false" />
-            <element signature="method#max#0;class#BinarySearchTree#0" expanded="false" />
-            <element signature="method#keys#1;class#BinarySearchTree#0" expanded="false" />
-            <element signature="method#keys#2;class#BinarySearchTree#0" expanded="false" />
-            <element signature="method#main#0;class#BinarySearchTree#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -789,12 +830,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/Software/jdk1.8/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="656" column="37" lean-forward="false" selection-start-line="656" selection-start-column="0" selection-end-line="657" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/tree/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="218" column="0" lean-forward="false" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
+        <state relative-caret-position="614">
+          <caret line="284" column="51" lean-forward="false" selection-start-line="284" selection-start-column="51" selection-end-line="284" selection-end-column="51" />
           <folding>
+            <element signature="docComment;class#BinaryTree#0" expanded="false" />
+            <element signature="class#Node#0;class#BinaryTree#0" expanded="false" />
+            <element signature="docComment;method#getNodeCount#0;class#BinaryTree#0" expanded="false" />
+            <element signature="method#getNodeCount#0;class#BinaryTree#0" expanded="false" />
+            <element signature="docComment;method#getDepth#0;class#BinaryTree#0" expanded="false" />
+            <element signature="method#getDepth#0;class#BinaryTree#0" expanded="false" />
+            <element signature="docComment;method#preOrderTraverse#0;class#BinaryTree#0" expanded="false" />
+            <element signature="method#preOrderTraverse#0;class#BinaryTree#0" expanded="false" />
+            <element signature="docComment;method#inOrderTraverse#0;class#BinaryTree#0" expanded="false" />
+            <element signature="method#inOrderTraverse#0;class#BinaryTree#0" expanded="false" />
+            <element signature="docComment;method#postOrderTraverse#0;class#BinaryTree#0" expanded="false" />
+            <element signature="method#postOrderTraverse#0;class#BinaryTree#0" expanded="false" />
+            <element signature="method#visitNode#0;class#BinaryTree#0" expanded="false" />
+            <element signature="docComment;method#levelTraverse#0;class#BinaryTree#0" expanded="false" />
+            <element signature="method#levelTraverse#0;class#BinaryTree#0" expanded="false" />
+            <element signature="docComment;field#listHead#0;class#BinaryTree#0" expanded="false" />
+            <element signature="method#convertToList#0;class#BinaryTree#0" expanded="false" />
+            <element signature="method#visit#0;class#BinaryTree#0" expanded="false" />
+            <element signature="method#convertToListCore#0;class#BinaryTree#0" expanded="false" />
+            <element signature="docComment;method#getNodeNumKthLevel#0;class#BinaryTree#0" expanded="false" />
+            <element signature="method#getNodeNumKthLevel#0;class#BinaryTree#0" expanded="false" />
+            <element signature="docComment;method#getLeafNodeNum#0;class#BinaryTree#0" expanded="false" />
+            <element signature="method#getLeafNodeNum#0;class#BinaryTree#0" expanded="false" />
+            <element signature="docComment;method#structureCmp#0;class#BinaryTree#0" expanded="false" />
+            <element signature="method#structureCmp#0;class#BinaryTree#0" expanded="false" />
+            <element signature="docComment;method#isAVL#0;class#BinaryTree#0" expanded="false" />
+            <element signature="method#isAVL#0;class#BinaryTree#0" expanded="false" />
+            <element signature="method#getDepth#1;class#BinaryTree#0" expanded="false" />
+            <element signature="docComment;method#mirror#0;class#BinaryTree#0" expanded="false" />
+            <element signature="method#mirror#0;class#BinaryTree#0" expanded="false" />
+            <element signature="docComment;method#fatherNode#0;class#BinaryTree#0" expanded="false" />
+            <element signature="method#fatherNode#0;class#BinaryTree#0" expanded="false" />
             <element signature="method#getNodePath#0;class#BinaryTree#0" expanded="false" />
+            <element signature="docComment;method#getMaxDistance#0;class#BinaryTree#0" expanded="false" />
+            <element signature="method#getMaxDistance#0;class#BinaryTree#0" expanded="false" />
+            <element signature="docComment;method#rebuildTree#0;class#BinaryTree#0" expanded="false" />
+            <element signature="method#rebuildTree#0;class#BinaryTree#0" expanded="false" />
+            <element signature="docComment;method#isCompleteBinaryTree#0;class#BinaryTree#0" expanded="false" />
+            <element signature="method#isCompleteBinaryTree#0;class#BinaryTree#0" expanded="false" />
           </folding>
         </state>
       </provider>
